@@ -1,0 +1,13 @@
+[package]
+name = "richguru"
+version = "0.1.0"
+edition = "2024"
+description = "rich-style terminal output for Rust - ANSI colors, styled text and aligned tables, zero dependencies"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/StarcevAlexander/richguru"
+homepage = "https://github.com/StarcevAlexander/richguru"
+readme = "README.md"
+keywords = ["terminal", "ansi", "color", "table", "console"]
+categories = ["development-tools", "command-line-interface"]
+
+[dependencies]
