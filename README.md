@@ -1,15 +1,15 @@
-> **DEPRECATED:** this crate has been renamed to [`rich-guru`](https://crates.io/crates/rich-guru). New code should depend on `rich-guru`.
-
-# richguru
+# rich-guru
 
 **rich-style terminal output for Rust** — ANSI-styled text (colors, bold, italic, underline) and aligned box-drawing tables, zero dependencies.
+
+Formerly published on crates.io as `richguru`.
 
 For developers coming from Python's [rich](https://github.com/Textualize/rich) or Node's [chalk](https://github.com/chalk/chalk) who want pretty CLI output without pulling a framework.
 
 ## Usage
 
 ```rust
-use richguru::{table, Styled};
+use rich_guru::{table, Styled};
 
 fn main() {
     println!("{}", Styled::new("status: ok").green().bold());
