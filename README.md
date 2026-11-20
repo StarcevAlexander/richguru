@@ -1,3 +1,5 @@
+> **DEPRECATED:** this crate has been renamed to [`rich-guru`](https://crates.io/crates/rich-guru). New code should depend on `rich-guru`.
+
 # richguru
 
 **rich-style terminal output for Rust** — ANSI-styled text (colors, bold, italic, underline) and aligned box-drawing tables, zero dependencies.
